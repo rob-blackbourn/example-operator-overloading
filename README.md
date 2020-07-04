@@ -9,6 +9,32 @@ npm install
 npm start
 ```
 
+## Installtion
+
+You can add the plugin to your project by adding the npm package.
+
+```bash
+npm install --save-dev @jetblack/operator-overloading
+```
+
+The bable file will look something like this.
+
+```json
+{
+  "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+  ],
+  "plugins": ["module:@jetblack/perator-overloading"]
+}
+```
+
 ## The code
 
 Here is the code. We need to enable the overloading with the `'operator-overloading enabled'`

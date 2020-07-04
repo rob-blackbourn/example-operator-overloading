@@ -1,4 +1,4 @@
-# babel-operator-overload-plugin-example
+# example-operator-overloading
 
 This project demonstrates how to use [@jetblack/operator-overloading](https://github.com/rob-blackbourn/jetblack-operator-overloading).
 

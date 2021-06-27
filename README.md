@@ -9,7 +9,7 @@ npm install
 npm start
 ```
 
-## Installtion
+## Installation
 
 You can add the plugin to your project by adding the npm package.
 
@@ -17,7 +17,7 @@ You can add the plugin to your project by adding the npm package.
 npm install --save-dev @jetblack/operator-overloading
 ```
 
-The bable file will look something like this.
+The babel file will look something like this.
 
 ```json
 {
@@ -31,7 +31,7 @@ The bable file will look something like this.
         }
       ]
   ],
-  "plugins": ["module:@jetblack/perator-overloading"]
+  "plugins": ["module:@jetblack/operator-overloading"]
 }
 ```
 

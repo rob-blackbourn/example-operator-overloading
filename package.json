@@ -1,6 +1,6 @@
 {
   "name": "babel-operator-overload-example",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "",
   "main": "src/index.js",
   "scripts": {
@@ -11,11 +11,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.10.1",
-    "@babel/core": "^7.10.2",
-    "@babel/node": "^7.10.1",
-    "@babel/preset-env": "^7.10.2",
-    "@jetblack/operator-overloading": "^0.1.0",
-    "babel-operator-overload-plugin": "git+https://github.com/rob-blackbourn/babel-operator-overload-plugin.git#3.0.0"
+    "@babel/cli": "^7.14",
+    "@babel/core": "^7.14",
+    "@babel/node": "^7.14",
+    "@babel/preset-env": "^7.14",
+    "@jetblack/operator-overloading": "^0.2.0"
   }
 }

@@ -1,18 +1,7 @@
 'operator-overloading enabled'
 
-class Point {
-
-  constructor(x, y) {
-      this.x = x
-      this.y = y
-  }
-  
-  [Symbol.for('+')](other) {
-      const x = this.x + other.x
-      const y = this.y + other.y
-      return new Point(x, y)
-  }
-}
+import { Fraction } from './fraction'
+import { Point } from './point'
 
 // Check primitives still work
 const i1 = 3
@@ -31,5 +20,11 @@ const s1 = null
 const s2 = 'hello'
 const s3 = s1 + s2
 console.log(s3)
+
+// Fun with fractions.
+const f1 = new Fraction(1, 2)
+const f2 = f1 * f1
+console.log(f2.toString())
+
 
 console.log('Done')
